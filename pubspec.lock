@@ -62,6 +62,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_image:
+    dependency: "direct main"
+    description:
+      name: flutter_image
+      sha256: b41c6cbf9462d8cbdeeb7b5dd84c7bca5176e9e4d6e8b968290e371ab758cc0c
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.1.8"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -186,3 +194,4 @@ packages:
     version: "0.1.4-beta"
 sdks:
   dart: ">=3.1.0 <4.0.0"
+  flutter: ">=3.7.0"
