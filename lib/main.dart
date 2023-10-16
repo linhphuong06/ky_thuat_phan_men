@@ -17,18 +17,20 @@ class MyApp extends StatelessWidget {
           children: [
             // Make sure your image file is located in the 'assets' directory
             Image.asset(
-              'assets/background.jpg',
-              fit: BoxFit.cover,
+              'assets/back.png',
+              fit: BoxFit.fill,
               width: double.infinity,
               height: double.infinity,
             ),
+            // Spacer(),
             MenuWidget(),
             Positioned(
-              bottom: 20.0, // Adjust the bottom position as needed
+              top: 0.0, // Adjust the bottom position as needed
               left: 20.0, // Adjust the left position as needed
               child: Image.asset(
                 'assets/logo.png',
-                width: 300.0, // Set the width and height as needed
+                fit:BoxFit.fitWidth,
+                width: 900.0, // Set the width and height as needed
                 height: 400.0,
               ),
             ),

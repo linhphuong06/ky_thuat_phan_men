@@ -8,6 +8,7 @@ class MenuWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Spacer(),
+          Spacer(),
           ElevatedButton(
             onPressed: () {
               // Handle "PLAY" button click
@@ -37,7 +38,7 @@ style: ElevatedButton.styleFrom(
                 ),
               primary: Color.fromARGB(255, 240, 181, 181),
               onPrimary: Colors.black,
-              padding: EdgeInsets.all(50.0),
+              padding: EdgeInsets.fromLTRB(120.0, 40.0, 120.0, 40.0),
               
             ),
 ),
@@ -70,7 +71,7 @@ style: ElevatedButton.styleFrom(
                 ),
               primary: Color.fromARGB(255, 240, 181, 181),
               onPrimary: Colors.black,
-              padding: EdgeInsets.fromLTRB(16.0, 50.0, 16.0, 50.0),
+              padding: EdgeInsets.fromLTRB(90.0, 50.0, 90.0, 50.0),
             ),
           ),
           Spacer(),
@@ -101,7 +102,7 @@ style: ElevatedButton.styleFrom(
                 ),
               primary: Color.fromARGB(255, 240, 181, 181),
               onPrimary: Colors.black,
-              padding: EdgeInsets.fromLTRB(16.0, 50.0, 16.0, 50.0),
+              padding: EdgeInsets.fromLTRB(90.0, 50.0, 90.0, 50.0),
             ),
           ),
           Spacer(),
