@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'MenuWidget.dart';
+import 'SettingsScreen.dart';
 
 void main() {
   runApp(MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   @override
@@ -11,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Menu'),
+          title: Text(''),
         ),
         body: Stack(
           children: [

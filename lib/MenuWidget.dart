@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'SettingsScreen.dart';
 
 class MenuWidget extends StatelessWidget {
   @override
@@ -46,6 +47,10 @@ style: ElevatedButton.styleFrom(
           Spacer(),
           ElevatedButton(
             onPressed: () {
+              Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => SettingsScreen()),
+            );
               // Handle "SETTING" button click
             },
             child: Column(

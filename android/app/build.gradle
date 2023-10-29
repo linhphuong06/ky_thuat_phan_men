@@ -64,4 +64,16 @@ flutter {
     source '../..'
 }
 
+// buildscript {
+//     repositories {
+//         google()
+//         jcenter()
+//     }
+//     dependencies {
+//         classpath "com.android.tools.build:gradle:7.0.0" // Phiên bản Android Gradle plugin của bạn
+//         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.20" // Đặt phiên bản Kotlin Gradle plugin bạn cần ở đây
+//     }
+// }
+
+
 dependencies {}
